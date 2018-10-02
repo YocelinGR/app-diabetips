@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-import './App.css';
+import { Link } from 'react-router-dom';
+import './Home.css';
 import { Button, Icon, Row, Col, Footer
        } from 'react-materialize';
 
@@ -23,8 +24,8 @@ class Home extends Component {
             </div>
         <Footer className="App-footer">
               <Col s={12}>
-                <a className= "btn-footer" id="unirse">UNIRSE</a>
-                <a className ="btn-footer" id="iniciar">INICIAR</a>
+                <a className= "btn-footer" id="unirse"><Link to='/LogUp'>UNIRSE</Link></a>
+                <a className ="btn-footer" id="iniciar"><Link to='/LogIn'>INICIAR</Link></a>
               </Col>
             </Footer>
       </div>

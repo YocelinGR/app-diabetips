@@ -1,0 +1,29 @@
+.Header-Login img{
+    width: 40vh;
+    padding-top: 25px;
+    padding-left: 35%;
+    padding-bottom: 0px;
+  }
+  h3 {
+    padding-top: 0vh;
+    margin-top: 0vh;
+    margin-bottom: 0vh;
+  }
+  .notRegistryYet p{
+    text-align: center;
+  }
+  h5 {
+    padding-top: 0vh;
+    margin-top: 0vh;
+    margin-bottom: 0vh;
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.3em;
+    color: #EB656A;
+  }
+  .input-field.col label, .input-field, label {
+    width: 100%;
+    padding-left: 0vh;
+    font-family: 'Comfortaa', cursive;
+    font-size: 1em;
+    color: #EB656A
+  }
