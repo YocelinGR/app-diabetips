@@ -1,0 +1,32 @@
+body {
+    background: linear-gradient(#61c4e3, #ffffff);
+  }
+  .App {
+    width: 100vw;
+    height: 100vh;
+  }
+  .App-footer {
+    width: 100vw;
+    height: 10vh;
+    text-align: center;
+  }
+  .App-footer a {
+    font-size: 14pt;
+    font-family: 'Comfortaa', cursive;
+    color: #fff;
+    padding: 20px;
+    padding-left: 10%;
+    padding-right: 15%;
+  }
+  footer.page-footer {
+    background-color: #EB656A;
+  }
+  .app-carousel {
+    width: 90vw;
+    height: 60vh;
+    padding-left: 6%;
+  }
+  .carousel .slide .legend {
+    text-align: center;
+    color: black;
+  }

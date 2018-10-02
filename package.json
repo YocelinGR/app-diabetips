@@ -2,9 +2,14 @@
   "name": "app-diabetips",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "npm": "6.2.0",
+    "node": "8.11.3"
+  },
   "dependencies": {
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
+    "react-materialize": "^2.4.6",
     "react-scripts": "1.1.5"
   },
   "scripts": {
@@ -12,5 +17,15 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "description": "An App to create a diabetics women's comunity to improve our lives together",
+  "main": "index.js",
+  "repository": "https://github.com/YocelinGR/app-diabetips.git",
+  "author": "YocelinGRomero <garcia_romero.y@hotmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.6.1",
+    "jest": "^23.6.0",
+    "react-router-dom": "^4.3.1"
   }
 }
