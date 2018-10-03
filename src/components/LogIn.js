@@ -50,8 +50,12 @@ class LogIn extends Component {
   }
 } */
 firebase.initializeApp({
-  apiKey: 'AIzaSyBoO-dyO4PywqOJJVLDAucttJLMlM5N3vs',
-  authDomain: 'diabetipsoficial.firebaseapp.com'
+  apiKey: "AIzaSyBoO-dyO4PywqOJJVLDAucttJLMlM5N3vs",
+    authDomain: "diabetipsoficial.firebaseapp.com",
+    databaseURL: "https://diabetipsoficial.firebaseio.com",
+    projectId: "diabetipsoficial",
+    storageBucket: "diabetipsoficial.appspot.com",
+    messagingSenderId: "1025645095828"
 });
 
 class LogIn extends Component{
