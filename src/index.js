@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-
+// Styled pages
 import './index.css';
 import './general.css';
 
