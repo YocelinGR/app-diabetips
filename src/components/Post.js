@@ -17,7 +17,7 @@ class PostBox extends Component {
   }
 
   saveText() {
-    this.props.saveText(this.state.newPost);
+    this.props.addPost(this.state.newPost);
     this.setState({
       newPost: ''
     });

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-class allPost extends Component {
+class AllPost extends Component {
     constructor(props) {
         super(props);
         this.postContent = props.postContent;
@@ -16,9 +16,7 @@ class allPost extends Component {
     render(props) {
         return (
             <div className= "allPost">
-                <button className = "delete-btn" onClick = {() => this.handleRemovePost(this.postId)}>
-                   x
-                </button>
+                <button className = "delete-btn" onClick = {() => this.handleRemovePost(this.postId)}>x</button>
                 <p>{this.postContent}</p>
             </div>
         )
@@ -29,4 +27,4 @@ class allPost extends Component {
     postContent: PropTypes.String
 };*/
 
-export default allPost;
+export default AllPost;

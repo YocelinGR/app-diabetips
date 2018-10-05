@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import allPost from './allPost';
+import AllPost from './allPost';
 import PostBox from './Post';
 
 
 import { Config } from './config';
 import 'firebase/database';
 
-class managePost extends Component {
+class ManagePost extends Component {
     constructor() {
         super();
         this.state = {
@@ -52,6 +52,7 @@ class managePost extends Component {
     render() {
 		return (
             <div>
+                <p>Hola Post</p>
                 <section>
                     <PostBox  addPost= {this.addPost}/>
                 </section>
@@ -59,7 +60,7 @@ class managePost extends Component {
 					{
 						this.state.post.map(onePost => {
 							return (
-								<allPost
+								<AllPost
 									postContent={onePost.noteContent} 
 									postId={onePost.noteId}
 									key={onePost.noteId}
@@ -74,4 +75,4 @@ class managePost extends Component {
 	}
 }
 
-export default managePost;
+export default ManagePost;
