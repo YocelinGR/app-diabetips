@@ -27,3 +27,21 @@
     font-size: 1em;
     color: #EB656A
   }
+  .user-loged {
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.3em;
+    color: #EB656A;
+    text-align: center;
+  }
+  .user-loged h4 {
+    font-size: 1em;
+    text-align: left;
+  }
+  .user-loged img {
+    width: 20vh;
+    display: inline;
+    text-align: right;
+  }
+  .user-loged button {
+    font-size: 0.5em;
+  }

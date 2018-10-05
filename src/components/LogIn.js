@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { BrowserRouter} from 'react-router-dom';
 import './LogIn.css';
 import {
   Button, Row, Col,
@@ -8,6 +9,7 @@ import { Config } from './config';
 import firebase from 'firebase';
 import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth';
 import managePost from './managePost';
+import NavBar from './NavBar';
 
 /*
 class LogIn extends Component {
@@ -87,11 +89,14 @@ class LogIn extends Component{
       <div className= "LogInStyle">
         {this.state.isSignedIn ? (
           <div>
-          <div>
-            <div>Hola, hoy serás una mejor versión de ti misma</div>
-            <button onClick={() => firebase.auth().signOut()}>Salir</button>
-            <h1>Diabeamigo: {firebase.auth().currentUser.displayName}</h1>
+          <div className = "NavBar">
+            <NavBar />
+          </div>
+          <div className = "user-loged">
+            <h3>Hola, hoy serás una mejor versión de ti misma</h3>
+            <h4>Diabeamigo: {firebase.auth().currentUser.displayName}</h4>
             <img alt = "foto de usuario" src= {firebase.auth().currentUser.photoURL} />
+            <button className = "btn btn-floating pink lighten-1" onClick={() => firebase.auth().signOut()}>Salir</button>
           </div>
           <managePost />
           </div>

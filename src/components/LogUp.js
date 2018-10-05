@@ -9,15 +9,6 @@ class LogUp extends Component {
   render() {
     return (
       <div>
-        <Row>
-                  <Col s={10}>
-                    <h3>Registro de nuevos usuarios</h3>
-                    <div className="signBtn">
-                    <Button waves="light" id="btnGmail"><i className="fa fa-google">     Gmail</i></Button>
-                    <Button waves="light" id="btnFacebook"><i className="fa fa-facebook-official">     Facebook</i></Button>
-                  </div>
-                  </Col>
-                </Row>
         <Col s={10}>
                   <h4 s={10}>Por favor, ingresa tus datos: </h4>
                   <Input s={10} label="Nombre Completo" />
@@ -34,7 +25,7 @@ class LogUp extends Component {
                   <Input s={10} name="group1" type="checkbox" value="remember" label="Recuerdame" />
                   <p s={10}>Nosotros nunca compartiremos tu información con nadie.</p>
                   <div className="signBtn">
-                    <Button id="registrarBtn" waves="light">Registrar</Button>
+                    <Button id="registrarBtn" waves="light">Hecho!</Button>
                   </div>
                 </Col>
       </div>
