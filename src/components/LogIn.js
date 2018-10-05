@@ -4,8 +4,10 @@ import {
   Button, Row, Col,
   Input,
 } from 'react-materialize';
+import { Config } from './config';
 import firebase from 'firebase';
 import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth';
+import managePost from './managePost';
 
 /*
 class LogIn extends Component {
@@ -48,7 +50,7 @@ class LogIn extends Component {
       </div>
     );
   }
-} */
+} 
 firebase.initializeApp({
   apiKey: "AIzaSyBoO-dyO4PywqOJJVLDAucttJLMlM5N3vs",
     authDomain: "diabetipsoficial.firebaseapp.com",
@@ -56,7 +58,7 @@ firebase.initializeApp({
     projectId: "diabetipsoficial",
     storageBucket: "diabetipsoficial.appspot.com",
     messagingSenderId: "1025645095828"
-});
+});*/
 
 class LogIn extends Component{
   state = { isSignedIn: false}
@@ -84,12 +86,16 @@ class LogIn extends Component{
     return(
       <div className= "LogInStyle">
         {this.state.isSignedIn ? (
-          <span>
+          <div>
+          <div>
             <div>Hola, hoy serás una mejor versión de ti misma</div>
             <button onClick={() => firebase.auth().signOut()}>Salir</button>
             <h1>Diabeamigo: {firebase.auth().currentUser.displayName}</h1>
             <img alt = "foto de usuario" src= {firebase.auth().currentUser.photoURL} />
-          </span>
+          </div>
+          <managePost />
+          </div>
+          
         ) : (
           <StyledFirebaseAuth uiConfig= {this.uiConfig} firebaseAuth = {firebase.auth()} />
         )}
