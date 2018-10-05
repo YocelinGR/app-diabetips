@@ -7,8 +7,8 @@ import { Config } from './config';
 import 'firebase/database';
 
 class ManagePost extends Component {
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
         this.state = {
             post: []
         };
@@ -61,9 +61,9 @@ class ManagePost extends Component {
 						this.state.post.map(onePost => {
 							return (
 								<AllPost
-									postContent={onePost.noteContent} 
-									postId={onePost.noteId}
-									key={onePost.noteId}
+									postContent={onePost.postContent} 
+									postId={onePost.postId}
+									key={onePost.postId}
 									removePost={this.removePost}
 								/>);
 						})
