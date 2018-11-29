@@ -11,11 +11,12 @@ body {
     text-align: center;
   }
   .App-footer a {
-    font-size: 14pt;
+    font-size: 13pt;
     font-family: 'Comfortaa', cursive;
     color: #fff;
-    padding-left: 10%;
-    padding-right: 15%;
+    justify-content: center;
+    align-items: center;
+    padding-right: 16px;
   }
   footer.page-footer {
     background-color: #EB656A;
