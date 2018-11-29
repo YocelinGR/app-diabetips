@@ -1,3 +1,4 @@
+body {overflow-x:hidden;}
 .Header-Login img{
     width: 40vh;
     padding-top: 25px;
@@ -19,15 +20,13 @@
     text-align: center;
   }
   h4 {
-    padding-top: 0vh;
-    margin-top: 0vh;
-    margin-bottom: 0vh;
     font-family: 'Comfortaa', cursive;
     font-size: 0.9em;
     color: #EB656A;
     text-align: center;
     justify-content: center;
     align-items: center;
+    padding-left: 35vh; 
   }
   .input-field.col label, .input-field, label {
     width: 100%;
@@ -88,3 +87,63 @@
     }
   }
    
+
+.postBody {
+  width: 80%;
+  margin: 10%
+}
+.postBody p {
+  font-size: 1em;
+  text-align: center;
+  justify-content: center;
+}
+.postBody {
+  margin-top: 20%;
+}
+
+.postBody .allPost {
+  background-color: rgb(204, 191, 191);
+  padding: 1.5%;
+  margin: 0.3%;
+}
+.PostForm {
+  width: 80%;
+  margin: 10%;
+  background-color: rgb(146, 163, 185);
+  font-size: 1.2em;
+}
+
+.PostForm input {
+  font-size: 1.2em;
+  color: rgb(43, 42, 42);
+  margin: 10px;
+}
+
+@media only screen and (max-width: 425px){
+  .postBody p {
+    font-size: 0.8em;
+  }
+  .PostForm {
+    font-size: 1em;
+  }
+  
+  .PostForm input {
+    font-size: 1em;
+  }
+}
+
+.postButton {
+  background-color: rgb(50, 50, 70);
+  color: white;
+  border-radius: 8px;
+  font-size: 1em;
+  float: right;
+  padding: 1%;
+}
+.delete-btn {
+  background-color: rgb(134, 103, 128);
+  color: white;
+  border-radius: 8px;
+  font-size: 1.1em;
+  float: right;
+}

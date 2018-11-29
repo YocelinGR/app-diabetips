@@ -42,8 +42,8 @@ class LogIn extends Component{
             <NavBar />
           </div>
           <div className = "user-loged">
-            <h3>Hola, hoy serás una mejor versión de ti misma</h3>
-            <h4>Diabeamigo: {firebase.auth().currentUser.displayName}</h4>
+            <h3>Hoy serás una mejor versión de ti misma</h3>
+            <h4>{firebase.auth().currentUser.displayName}</h4>
             <img alt = "foto de usuario" src= {firebase.auth().currentUser.photoURL} />
             <button className = "btn btn-floating pink lighten-1" onClick={() => firebase.auth().signOut()}>Salir</button>
           </div>

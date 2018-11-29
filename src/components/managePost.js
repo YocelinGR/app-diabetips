@@ -52,7 +52,7 @@ class ManagePost extends Component {
     render() {
 		return (
             <div>
-                <p>Hola Post</p>
+                <p>Comparte aquí tus ideas y sentimientos</p>
                 <section>
                     <PostBox  addPost= {this.addPost}/>
                 </section>
