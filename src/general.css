@@ -63,3 +63,15 @@ body {
     padding-left: 50px;
   }
 }
+
+@media only screen and (min-width: 990px) {
+  .App-footer a {
+    font-size: 19pt;
+    padding-right: 230px;
+  }
+
+  #iniciar {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
