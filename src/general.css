@@ -16,8 +16,12 @@ body {
     color: #fff;
     justify-content: center;
     align-items: center;
-    padding-right: 16px;
+    padding-right: 20px;
   }
+  #iniciar {
+    padding-left: 20px;
+  }
+
   footer.page-footer {
     background-color: #EB656A;
   }
@@ -32,12 +36,30 @@ body {
   }
   @media only screen and (min-width: 450px) {
     .app-carousel img {
-      height: 30vh;
+      height: 40vh;
       padding-left: 6%;
     }
     
     .App-footer a {
       font-size: 14pt;
-      padding-right: 25px;
+      padding-right: 30px;
     }
+
+    #iniciar {
+      padding-left: 30px;
+    }
+}
+@media only screen and (min-width: 500px) {
+  .app-carousel img {
+    display: none;
+  }
+  
+  .App-footer a {
+    font-size: 18pt;
+    padding-right: 50px;
+  }
+
+  #iniciar {
+    padding-left: 50px;
+  }
 }
