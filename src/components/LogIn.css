@@ -8,17 +8,26 @@
     padding-top: 0vh;
     margin-top: 0vh;
     margin-bottom: 0vh;
+    font-size: 1em;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 0px;
   }
   .notRegistryYet p{
     text-align: center;
   }
-  h5 {
+  h4 {
     padding-top: 0vh;
     margin-top: 0vh;
     margin-bottom: 0vh;
     font-family: 'Comfortaa', cursive;
-    font-size: 1.3em;
+    font-size: 0.9em;
     color: #EB656A;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
   }
   .input-field.col label, .input-field, label {
     width: 100%;
@@ -45,3 +54,37 @@
   .user-loged button {
     font-size: 0.5em;
   }
+
+  .btn-floating {
+    font-size: 0.7em;
+  }
+
+  @media only screen and (max-width: 450px) {
+    .btn-floating {
+      font-size: 0.6em;
+    }
+    .right a {
+      font-size: 0.7em;
+    }
+  }
+
+  @media only screen and (max-width: 320px) {
+    .right a {
+      padding: 6px;
+    }
+  }
+  @media only screen and (max-width: 550px) {
+    .user-loged h3 {
+      font-size: 0.9em;
+      text-align: center;
+      margin: 8px;
+      padding: 0px;
+    }
+    .user-loged h4 {
+      font-size: 0.6em;
+      text-align: center;
+      margin: 8px;
+      padding: 0px;
+    }
+  }
+   
