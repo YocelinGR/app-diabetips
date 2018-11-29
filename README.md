@@ -169,13 +169,21 @@ Contacto:
 # DiabeTips UX
 ## Sketching de Diseño Ideal
 Mobie first
-![alt text](src/images/general.jpg)
-![alt text](src/images/carruselinicio.jpg)
-![alt text](src/images/inicio.jpg)
-![alt text](src/images/inicio1.jpg)
-![alt text](src/images/registrousuario.jpg)
-![alt text](src/images/comentario.jpg)
-![alt text](src/images/feed.jpg)
+
+![alt text](./src/images/general.jpg)
+
+![alt text](./src/images/carruselinicio.jpg)
+
+![alt text](./src/images/inicio.jpg)
+
+![alt text](./src/images/inicio1.jpg)
+
+![alt text](./src/images/registrousuario.jpg)
+
+![alt text](./src/images/comentario.jpg)
+
+![alt text](./src/images/feed.jpg)
+
 ## Benchmark (externo)
 "DiabeTips"
 Mejora tu calidad de vida y la de los demas.
