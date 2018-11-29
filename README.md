@@ -1,5 +1,11 @@
 # *Social Media*
 
+Diabetips es una red social para mujeres diabéticas que busca crear una red de apoyo en la cual sea posible compartir sentimientos y consejos en torno a la diabetes.
+
+![data-dashboard](https://github.com/YocelinGR/YocelinGR.github.io/blob/master/assets/diabetipsapp.png?raw=true)
+
+###  Desarrollado para [Laboratoria](http://laboratoria.la)
+
 ##  __DiabeTips__
 
 ### Documentación y desarrollo
